@@ -194,11 +194,11 @@ def generate_graph(df, asin_names_dict, threshold_high, threshold_low):
     # レイアウト設定
     fig.update_layout(
         title=dict(
-            text="ASIN別 値引き率 vs 新規弾力性",
+            text="ASIN別 値引き率 vs 価格弾力性",
             font=dict(size=20)
         ),
         xaxis_title="値引き率 (%)",
-        yaxis_title="新規弾力性",
+        yaxis_title="価格弾力性",
         hovermode='closest',
         legend=dict(
             yanchor="top",
